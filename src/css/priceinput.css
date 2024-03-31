@@ -12,7 +12,7 @@
     font-size: 12px;
     color:rgb(158, 158, 158)
 }
-.inputContainer {
+.priceInput>.inputContainer {
     position:relative;
     display: flex;
     border: 1px solid tomato;
@@ -40,8 +40,7 @@
 }
 .inputContainer>.hint {
     position:absolute;
-    opacity: 0;
-    top:100%;
+    top:101%;
     width: 100%;
     padding: 4PX 6px;
     font-size: 10px;

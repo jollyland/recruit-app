@@ -46,7 +46,7 @@ function PriceInput() {
              onChange={handleChange}
              />
              <div className="hint"
-             style={{ opacity: price === '' ? '100%' : '0'}}> 不可以為空白</div>
+             style={{ display: price === '' ? 'block' : 'none'}}> 不可以為空白</div>
         </div>
         <div className="label right">
           輸入0表示免費
