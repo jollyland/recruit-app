@@ -15,6 +15,9 @@
 .inputContainer {
     position:relative;
     display: flex;
+    border: 1px solid tomato;
+    border-radius: 2px;
+
 }
 .inputContainer>* {
     padding: 8px;
@@ -26,22 +29,24 @@
 
 .inputContainer>.currency {
     font-size: 10px;
-    border: 1px solid gray;
-    border-right: none;
-    border-radius: 2px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    color:white;
+    border-radius: 1px 0 0 1px;
 
 }
 .inputContainer>input {
-    /* border-color: rgb(255, 91, 42); */
+    border:transparent
 }
 .inputContainer>.hint {
-    display: none;
     position:absolute;
+    opacity: 0;
     top:100%;
     width: 100%;
-    padding: 6px;
+    padding: 4PX 6px;
     font-size: 10px;
     color: rgb(255, 91, 42);
     background-color: rgb(255, 224, 214);
     border-radius: 0 0 2px 2px;
+    transition: all 0.2s;
 }

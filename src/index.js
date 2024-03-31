@@ -84,8 +84,4 @@ const getNumberIntervals = (intervals) => {
 let intervals = [[6, 11], [5, 8], [17, 20], [7, 7], [14,17]];
 // let intervals = [[3, 7], [2, 4], [7, 11], [5, 8], [10,12]];
 console.log(getNumberIntervals(intervals));
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
